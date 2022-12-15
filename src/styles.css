@@ -1,1 +1,57 @@
 /* You can add global styles to this file, and also import other style files */
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+   max-width: 90%;
+}
+.common-form{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin: 0 auto;
+}
+.form-input{
+    height: 35px;
+    margin-bottom: 20px;
+    border: 1px solid blueviolet;
+    border-radius: 6px;
+}
+.form-button {
+    height: 35px;
+    margin-bottom: 20px;
+    border: 1px solid blueviolet;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.authError{
+    color: red;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+.message{
+    color: green;
+}
+.carousel-caption {
+    background-color: #0000005e;
+    border-radius: 10px;
+}   
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: black;
+    border-radius: 5px;
+}
+.error{
+    color: red;
+    font-size: 14px;
+    margin-top: -20px;
+}
+button:disabled{
+    cursor: not-allowed;
+}

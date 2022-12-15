@@ -1,0 +1,8 @@
+.add-product{
+    text-align: center;
+    color: blueviolet;
+}
+
+.add-product textarea{
+    height: 150px;
+}

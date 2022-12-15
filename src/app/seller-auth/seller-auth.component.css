@@ -1,0 +1,12 @@
+.signup{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 80px;
+    color: blueviolet;
+}
+
+.signup-links span{
+    cursor: pointer;
+    color: red;
+    font-weight: 700;
+}
